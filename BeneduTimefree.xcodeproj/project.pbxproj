@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81AC36872591D1D90063B94B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AC36862591D1D90063B94B /* AppDelegate.swift */; };
+		81AC368A2591D1D90063B94B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AC36882591D1D90063B94B /* Main.storyboard */; };
+		81AC368C2591D1D90063B94B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AC368B2591D1D90063B94B /* ViewController.swift */; };
+		81AC368E2591D1D90063B94B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81AC368D2591D1D90063B94B /* Assets.xcassets */; };
+		81AC36952591D1DA0063B94B /* BeneduTimefree Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 81AC36942591D1DA0063B94B /* BeneduTimefree Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		81AC369A2591D1DA0063B94B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AC36992591D1DA0063B94B /* Cocoa.framework */; };
+		81AC369D2591D1DA0063B94B /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AC369C2591D1DA0063B94B /* SafariWebExtensionHandler.swift */; };
+		81AC36BF2591D2E10063B94B /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 81AC36BE2591D2E10063B94B /* manifest.json */; };
+		81AC36C52591D2FD0063B94B /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 81AC36C42591D2FD0063B94B /* index.html */; };
+		81AC36D92591D3130063B94B /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 81AC36D22591D3130063B94B /* background.js */; };
+		81AC36DA2591D3130063B94B /* wayfortime.js in Resources */ = {isa = PBXBuildFile; fileRef = 81AC36D32591D3130063B94B /* wayfortime.js */; };
+		81AC36DB2591D3130063B94B /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 81AC36D42591D3130063B94B /* script.js */; };
+		81AC36DC2591D3130063B94B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 81AC36D52591D3130063B94B /* README.md */; };
+		81AC36E42591D5C40063B94B /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 81AC36E32591D5C40063B94B /* icons */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81AC36962591D1DA0063B94B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81AC367A2591D1D90063B94B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81AC36932591D1DA0063B94B;
+			remoteInfo = "BeneduTimefree Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		81AC36B62591D1DA0063B94B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				81AC36952591D1DA0063B94B /* BeneduTimefree Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		81AC36822591D1D90063B94B /* BeneduTimefree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeneduTimefree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AC36852591D1D90063B94B /* BeneduTimefree.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BeneduTimefree.entitlements; sourceTree = "<group>"; };
+		81AC36862591D1D90063B94B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81AC36892591D1D90063B94B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81AC368B2591D1D90063B94B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81AC368D2591D1D90063B94B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81AC368F2591D1D90063B94B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81AC36942591D1DA0063B94B /* BeneduTimefree Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BeneduTimefree Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AC36992591D1DA0063B94B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		81AC369C2591D1DA0063B94B /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		81AC36AF2591D1DA0063B94B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81AC36B02591D1DA0063B94B /* BeneduTimefree_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BeneduTimefree_Extension.entitlements; sourceTree = "<group>"; };
+		81AC36BE2591D2E10063B94B /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		81AC36C42591D2FD0063B94B /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		81AC36D22591D3130063B94B /* background.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		81AC36D32591D3130063B94B /* wayfortime.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = wayfortime.js; sourceTree = "<group>"; };
+		81AC36D42591D3130063B94B /* script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		81AC36D52591D3130063B94B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		81AC36E32591D5C40063B94B /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81AC367F2591D1D90063B94B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81AC36912591D1DA0063B94B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AC369A2591D1DA0063B94B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81AC36792591D1D90063B94B = {
+			isa = PBXGroup;
+			children = (
+				81AC36842591D1D90063B94B /* BeneduTimefree */,
+				81AC369B2591D1DA0063B94B /* BeneduTimefree Extension */,
+				81AC36982591D1DA0063B94B /* Frameworks */,
+				81AC36832591D1D90063B94B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81AC36832591D1D90063B94B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81AC36822591D1D90063B94B /* BeneduTimefree.app */,
+				81AC36942591D1DA0063B94B /* BeneduTimefree Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81AC36842591D1D90063B94B /* BeneduTimefree */ = {
+			isa = PBXGroup;
+			children = (
+				81AC36852591D1D90063B94B /* BeneduTimefree.entitlements */,
+				81AC36862591D1D90063B94B /* AppDelegate.swift */,
+				81AC36882591D1D90063B94B /* Main.storyboard */,
+				81AC368B2591D1D90063B94B /* ViewController.swift */,
+				81AC368D2591D1D90063B94B /* Assets.xcassets */,
+				81AC368F2591D1D90063B94B /* Info.plist */,
+			);
+			path = BeneduTimefree;
+			sourceTree = "<group>";
+		};
+		81AC36982591D1DA0063B94B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81AC36992591D1DA0063B94B /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81AC369B2591D1DA0063B94B /* BeneduTimefree Extension */ = {
+			isa = PBXGroup;
+			children = (
+				81AC369C2591D1DA0063B94B /* SafariWebExtensionHandler.swift */,
+				81AC36AF2591D1DA0063B94B /* Info.plist */,
+				81AC36B02591D1DA0063B94B /* BeneduTimefree_Extension.entitlements */,
+				81AC369E2591D1DA0063B94B /* Resources */,
+			);
+			path = "BeneduTimefree Extension";
+			sourceTree = "<group>";
+		};
+		81AC369E2591D1DA0063B94B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				81AC36BE2591D2E10063B94B /* manifest.json */,
+				81AC36D22591D3130063B94B /* background.js */,
+				81AC36D52591D3130063B94B /* README.md */,
+				81AC36D42591D3130063B94B /* script.js */,
+				81AC36D32591D3130063B94B /* wayfortime.js */,
+				81AC36C42591D2FD0063B94B /* index.html */,
+				81AC36E32591D5C40063B94B /* icons */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81AC36812591D1D90063B94B /* BeneduTimefree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81AC36B72591D1DA0063B94B /* Build configuration list for PBXNativeTarget "BeneduTimefree" */;
+			buildPhases = (
+				81AC367E2591D1D90063B94B /* Sources */,
+				81AC367F2591D1D90063B94B /* Frameworks */,
+				81AC36802591D1D90063B94B /* Resources */,
+				81AC36B62591D1DA0063B94B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81AC36972591D1DA0063B94B /* PBXTargetDependency */,
+			);
+			name = BeneduTimefree;
+			productName = BeneduTimefree;
+			productReference = 81AC36822591D1D90063B94B /* BeneduTimefree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81AC36932591D1DA0063B94B /* BeneduTimefree Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81AC36B32591D1DA0063B94B /* Build configuration list for PBXNativeTarget "BeneduTimefree Extension" */;
+			buildPhases = (
+				81AC36902591D1DA0063B94B /* Sources */,
+				81AC36912591D1DA0063B94B /* Frameworks */,
+				81AC36922591D1DA0063B94B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BeneduTimefree Extension";
+			productName = "BeneduTimefree Extension";
+			productReference = 81AC36942591D1DA0063B94B /* BeneduTimefree Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81AC367A2591D1D90063B94B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					81AC36812591D1D90063B94B = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					81AC36932591D1DA0063B94B = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 81AC367D2591D1D90063B94B /* Build configuration list for PBXProject "BeneduTimefree" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81AC36792591D1D90063B94B;
+			productRefGroup = 81AC36832591D1D90063B94B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81AC36812591D1D90063B94B /* BeneduTimefree */,
+				81AC36932591D1DA0063B94B /* BeneduTimefree Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81AC36802591D1D90063B94B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AC368E2591D1D90063B94B /* Assets.xcassets in Resources */,
+				81AC368A2591D1D90063B94B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81AC36922591D1DA0063B94B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AC36DA2591D3130063B94B /* wayfortime.js in Resources */,
+				81AC36DB2591D3130063B94B /* script.js in Resources */,
+				81AC36BF2591D2E10063B94B /* manifest.json in Resources */,
+				81AC36DC2591D3130063B94B /* README.md in Resources */,
+				81AC36D92591D3130063B94B /* background.js in Resources */,
+				81AC36E42591D5C40063B94B /* icons in Resources */,
+				81AC36C52591D2FD0063B94B /* index.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81AC367E2591D1D90063B94B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AC368C2591D1D90063B94B /* ViewController.swift in Sources */,
+				81AC36872591D1D90063B94B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81AC36902591D1DA0063B94B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AC369D2591D1DA0063B94B /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81AC36972591D1DA0063B94B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81AC36932591D1DA0063B94B /* BeneduTimefree Extension */;
+			targetProxy = 81AC36962591D1DA0063B94B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81AC36882591D1D90063B94B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81AC36892591D1D90063B94B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81AC36B12591D1DA0063B94B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81AC36B22591D1DA0063B94B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		81AC36B42591D1DA0063B94B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "BeneduTimefree Extension/BeneduTimefree_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BeneduTimefree Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = in.seunghyun.BeneduTimefree.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		81AC36B52591D1DA0063B94B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "BeneduTimefree Extension/BeneduTimefree_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BeneduTimefree Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = in.seunghyun.BeneduTimefree.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		81AC36B82591D1DA0063B94B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BeneduTimefree/BeneduTimefree.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BeneduTimefree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = in.seunghyun.BeneduTimefree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		81AC36B92591D1DA0063B94B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BeneduTimefree/BeneduTimefree.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BeneduTimefree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = in.seunghyun.BeneduTimefree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81AC367D2591D1D90063B94B /* Build configuration list for PBXProject "BeneduTimefree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81AC36B12591D1DA0063B94B /* Debug */,
+				81AC36B22591D1DA0063B94B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81AC36B32591D1DA0063B94B /* Build configuration list for PBXNativeTarget "BeneduTimefree Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81AC36B42591D1DA0063B94B /* Debug */,
+				81AC36B52591D1DA0063B94B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81AC36B72591D1DA0063B94B /* Build configuration list for PBXNativeTarget "BeneduTimefree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81AC36B82591D1DA0063B94B /* Debug */,
+				81AC36B92591D1DA0063B94B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81AC367A2591D1D90063B94B /* Project object */;
+}
